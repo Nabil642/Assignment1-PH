@@ -46,7 +46,7 @@ nav {
   font-weight: 600;
 }
 #earlybtn:hover {
-  background-color: darkblue;
+  background-color: rgb(1, 80, 80);
   cursor: pointer;
 }
 
@@ -79,7 +79,7 @@ nav {
   cursor: pointer;
 }
 .green:hover {
-  background-color: darkblue;
+  background-color: rgb(1, 80, 80);
   cursor: pointer;
 }
 #h11 {
@@ -122,7 +122,7 @@ nav {
   border: none;
 }
 #arrow:hover {
-  background-color: darkblue;
+  background-color: rgb(1, 80, 80);
   cursor: pointer;
 }
 
@@ -139,7 +139,7 @@ nav {
   border-radius: 4px;
 }
 #play:hover {
-  background-color: darkblue;
+  background-color: rgb(1, 80, 80);
   cursor: pointer;
 }
 .pillar-section {
@@ -402,7 +402,7 @@ nav {
   margin-bottom: 16px;
 }
 .ready button:hover {
-  background-color: darkblue;
+  background-color: rgb(1, 80, 80);
   cursor: pointer;
 }
 #p2 {
@@ -457,6 +457,6 @@ hr {
   border-radius: 50%;
 }
 .icons a:hover {
-  background-color: gray;
+  background-color: rgb(1, 80, 80);
   cursor: pointer;
 }
