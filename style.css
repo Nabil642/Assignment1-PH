@@ -188,6 +188,10 @@ nav {
   margin-left: 120px;
   margin-right: 24px;
 }
+#pillar1:hover {
+  background-color: rgb(1, 80, 80);
+  border: 2px solid black;
+}
 
 #pillar1 img {
   margin: 45.5px 20px 16px 20px;
@@ -219,6 +223,10 @@ nav {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   margin-right: 24px;
 }
+#pillar2:hover {
+  background-color: rgb(1, 80, 80);
+  border: 2px solid black;
+}
 #pillar2 img {
   margin: 45.5px 20px 16px 20px;
 }
@@ -248,6 +256,10 @@ nav {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   margin-right: 24px;
 }
+#pillar3:hover {
+  background-color: rgb(1, 80, 80);
+  border: 2px solid black;
+}
 #pillar3 img {
   margin: 45.5px 20px 16px 20px;
 }
@@ -276,6 +288,10 @@ nav {
   border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   margin-right: 120px;
+}
+#pillar4:hover {
+  background-color: rgb(1, 80, 80);
+  border: 2px solid black;
 }
 #pillar4 img {
   margin: 45.5px 20px 16px 20px;
@@ -398,7 +414,8 @@ nav {
 }
 
 .footer {
-  max-width: 1600px;
+  max-width: 2200px;
+  background-size: cover;
   height: 348px;
   background-color: aqua;
   padding-top: 120px;
@@ -406,9 +423,7 @@ nav {
 }
 
 .ft1 {
-  border: 1px solid blue;
   display: flex;
-
   justify-content: space-between;
   margin: 0 120px 80px 120px;
 }
