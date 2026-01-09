@@ -45,6 +45,10 @@ nav {
   font-size: 16px;
   font-weight: 600;
 }
+#earlybtn:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
 
 .buttonsdiv {
   display: flex;
@@ -53,14 +57,15 @@ nav {
 .hero-section {
   justify-content: center;
   background-image: url("./assets/hero-bg.png");
-  max-width: 1600px;
+  width: 100%;
+  max-width: 2200px;
   height: 680px;
   background-repeat: no-repeat;
   align-items: center;
-  /* text-align: center; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-size: cover;
 }
 
 .green {
@@ -71,8 +76,12 @@ nav {
   font-weight: 600;
   display: flex;
   gap: 6px;
+  cursor: pointer;
 }
-
+.green:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
 #h11 {
   color: #ffffff;
   font-size: 72px;
@@ -112,6 +121,10 @@ nav {
   display: flex;
   border: none;
 }
+#arrow:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
 
 #play {
   display: flex;
@@ -125,8 +138,11 @@ nav {
   border: 1px solid white;
   border-radius: 4px;
 }
+#play:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
 .pillar-section {
-  /* background-color: #30b868; */
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -369,6 +385,10 @@ nav {
   border: none;
   margin-bottom: 16px;
 }
+.ready button:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
 #p2 {
   color: #627382;
   font-size: 16px;
@@ -395,21 +415,33 @@ nav {
 .foot {
   display: flex;
   justify-content: center;
-  /* margin: 110px 120px 30px 120px; */
   color: #ffffff;
 }
 
 hr {
-  /* Remove the default gray 3D border */
   border: none;
-
-  /* Set the thickness and color */
   height: 1px;
-  background-color: #627382; /* Your desired color */
-
-  /* Optional: Add spacing or width */
-  /* margin: 20px 0; */
+  background-color: #627382;
   margin-top: 80px;
   margin-bottom: 30px;
   width: 100%;
+}
+.icons {
+  color: #ffffff;
+}
+.icons h3 {
+  margin-bottom: 16px;
+  margin-right: 107px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.icons a {
+  gap: 16px;
+  color: white;
+  border-radius: 50%;
+}
+.icons a:hover {
+  background-color: gray;
+  cursor: pointer;
 }
