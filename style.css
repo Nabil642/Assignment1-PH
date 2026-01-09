@@ -376,3 +376,40 @@ nav {
   line-height: 24px;
   margin-bottom: 80px;
 }
+
+.footer {
+  max-width: 1600px;
+  height: 348px;
+  background-color: aqua;
+  padding-top: 120px;
+  background: var(--Style, rgba(0, 25, 49, 1));
+}
+
+.ft1 {
+  border: 1px solid blue;
+  display: flex;
+
+  justify-content: space-between;
+  margin: 0 120px 80px 120px;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  /* margin: 110px 120px 30px 120px; */
+  color: #ffffff;
+}
+
+hr {
+  /* Remove the default gray 3D border */
+  border: none;
+
+  /* Set the thickness and color */
+  height: 1px;
+  background-color: #627382; /* Your desired color */
+
+  /* Optional: Add spacing or width */
+  /* margin: 20px 0; */
+  margin-top: 80px;
+  margin-bottom: 30px;
+  width: 100%;
+}
